@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Analysis</title>
+</head>
+<body>
+    <div>
+        <h1>Resume Analysis Results</h1>
+        <div>
+            <h2>Uploaded File: {{ filename }}</h2>
+            <h3>Extracted Text:</h3>
+            <p>{{ extracted_text }}</p>
+            <h3>Model Output:</h3>
+            <p>{{ model_output }}</p>
+        </div>
+        <a href="{{ url_for('upload_file') }}">Upload Another</a>
+    </div>
+</body>
+</html>
