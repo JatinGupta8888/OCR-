@@ -14,7 +14,7 @@ EchoPressVision is designed to assist individuals with visual impairments by ena
 ![Screenshot (188)](https://github.com/arinsharma123/Cantilever-OCR-/assets/128144029/0b2604e5-0bd5-4af6-a767-f5033bf49dd9)
 
 ### 2. OpenCV & OCR:
-*Newspaper images are inputted, and computer vision techniques are employed to identify text-centric regions, highlighted by bounding boxes.
+* Newspaper images are inputted, and computer vision techniques are employed to identify text-centric regions, highlighted by bounding boxes.
 *Text is extracted from these regions, undergoes basic preprocessing and an audio file is subsequently generated.
 * TECH STACK: pytesseract, cv2, pyttsx3, matplotlib, spellchecker, textblob, nltk, re.
 
